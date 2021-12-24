@@ -1,0 +1,25 @@
+\t (00:00:00) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: D:/ALLEGRO LIBRARY/swdip1008w300l400.dra
+\t (00:00:01) Grids are drawn 16.0, 16.0 apart for enhanced viewability.
+\i (00:00:01) trapsize 55
+\i (00:00:01) trapsize 54
+\i (00:00:01) trapsize 54
+\i (00:00:01) generaledit 
+\i (00:00:03) zoom in 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 93.6 174.1
+\t (00:00:03) Grids are drawn 4.0, 4.0 apart for enhanced viewability.
+\i (00:00:03) trapsize 27
+\i (00:00:03) zoom out 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom out 237.9 188.1
+\t (00:00:03) Grids are drawn 16.0, 16.0 apart for enhanced viewability.
+\i (00:00:03) trapsize 54
+\i (00:00:03) zoom out 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom out 434.9 192.3
+\i (00:00:03) trapsize 107
+\i (00:00:04) exit 

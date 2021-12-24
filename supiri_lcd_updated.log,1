@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : supiri_lcd_updated.dra                        )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Nov 26 03:00:19 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols
+    Name      = supiri_lcd_updated.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

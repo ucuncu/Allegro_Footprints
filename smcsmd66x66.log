@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : smcsmd66x66.dra                               )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Oct 26 06:15:35 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols
+    Name      = smcsmd66x66.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

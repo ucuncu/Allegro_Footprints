@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : logo_epts_small.dra                           )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Feb 22 03:44:56 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols
+    Name      = logo_epts_small.bsm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

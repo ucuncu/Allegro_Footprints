@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : miniPCIe_edge_pcb.dra                         )
+(    Software Version : 16.5S010                                      )
+(    Date/Time        : Tue Feb 04 15:39:26 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Devre/LIB/ALLEGRO_LIB/ipc2_symbols
+    Name      = minipcie_edge_pcb.psm
+    User      = Sinan
+    Machine   = SINAN_PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

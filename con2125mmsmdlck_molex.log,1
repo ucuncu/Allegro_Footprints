@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : con2125mmsmdlck_molex.dra                     )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Tue Apr 04 13:20:56 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Devre/LIB/ALLEGRO_LIB/symbols
+    Name      = con2125mmsmdlck_molex.psm
+    User      = Sinan
+    Machine   = SINAN_PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

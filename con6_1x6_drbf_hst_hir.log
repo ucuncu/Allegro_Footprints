@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CON6_1X6_DRBF_HST_HIR.dra                     )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Fri Dec 10 13:53:17 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/FH12-6S-1SH-55/AllegroV17_2
+    Name      = con6_1x6_drbf_hst_hir.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(     DFA Symbol Update Process                                       )
+(                                                                     )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Apr 16 03:25:16 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+------------------------------------------------------------
+Updating C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/FXAS21002CQR1.dra
+
+Converting C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/FXAS21002CQR1.dra
+Updating symbol C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/FXAS21002CQR1.dra
+Updating DFA_DEV_CLASS property: 
+Updating symbol bounds
+Creating symbol C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/fxas21002cqr1.psm
+Update succeeded.
+
+
+
+------------------------------------------------------------
+ SUMMARY:
+
+   SUCCESSFUL updated symbols:          1

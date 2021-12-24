@@ -1,0 +1,36 @@
+skill load "C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/BRC523/AllegroV17_2/builder.ile" 
+skill changeWorkingDir "C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/BRC523/AllegroV17_2" 
+skill LB_createFootprint "C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/BRC523/AllegroV17_2/BCR523UE6327HTSA1_INF-L.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist BCR523UE6327HTSA1_INF.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+skill LB_createFootprint "C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/BRC523/AllegroV17_2/BCR523UE6327HTSA1_INF-M.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist BCR523UE6327HTSA1_INF.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+skill LB_createFootprint "C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/BRC523/AllegroV17_2/BCR523UE6327HTSA1_INF.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist BCR523UE6327HTSA1_INF.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+exit 

@@ -1,0 +1,399 @@
+
+(EDIF
+  (rename PJ_45_051AH "PJ-051AH")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2019 04 16 11 44 55)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename PJ_45_051AH "PJ-051AH")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename PJ_45_051AH "PJ-051AH")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename VALUE "Value") (string "PJ-051AH"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD "SHIELD")
+            (designator "S1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD__1 "SHIELD__1")
+            (designator "S2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -30000) (pt 50000 30000)))
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 20000)
+                    (pt 30000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &3)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 10000)
+                    (pt 30000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 0)
+                    (pt 30000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -20000)
+                    (pt 30000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD__1
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 -30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 46062 -30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 50000 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 50000 -30000)
+                    (pt 30000 -30000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (openShape
+                (curve
+                  (arc (pt -12500 15000) (pt -17500 20000) (pt -12500 25000))
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -12500 25000) (pt 15000 25000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 25000) (pt 15000 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 15000) (pt -12500 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 15000) (pt 15000 12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 12500) (pt 20000 12500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 12500) (pt 20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 20000) (pt 20000 27500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 27500) (pt 15000 27500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 15000 27500) (pt 15000 25000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt -2500 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -2500 0) (pt -5000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 5000) (pt -7500 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 10000) (pt 10000 0)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -30322 30232))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -30299 -50232))
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 10000 0)
+                  (pt 8000 5000)
+                  (pt 12000 5000)
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 30000) (pt 30000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 20000) (pt 30000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 10000) (pt 30000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 0) (pt 30000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 30000 -30000) (pt -30000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -30000) (pt -30000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 30000) (pt 30000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 30000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 10000) (pt 30000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 20000) (pt 30000 20000)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "CUI_PJ-051AH"))
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Unavailable"))
+            )
+            (property
+              (rename CUI_purchase_URL "CUI_purchase_URL")
+              (string
+              (stringDisplay "https://www.cui.com/product/interconnect/dc-power-connectors/jacks/2.0-mm-center-pin/pj-051ah?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "CUI Inc."))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+2.0 mm Center Pin, 5.0 A, Right Angle, Through Hole, Shielded, Dc Power Jack Connector
+"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "PJ-051AH"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

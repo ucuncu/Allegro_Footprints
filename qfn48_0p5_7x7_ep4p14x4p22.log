@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : qfn48_0p5_7x7_ep4p14x4p22.dra                 )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Tue Apr 04 12:10:26 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Devre/LIB/ALLEGRO_LIB/symbols
+    Name      = qfn48_0p5_7x7_ep4p14x4p22.psm
+    User      = Sinan
+    Machine   = SINAN_PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : conncf_XF2M40151A_right.dra                   )
+(    Software Version : 17.2S049                                      )
+(    Date/Time        : Tue Dec 25 17:17:32 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+    Name      = conncf_xf2m40151a_right.psm
+    User      = A. Selçuk
+    Machine   = DESKTOP-M30Q8B0
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,57 @@
+\t (00:00:00) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: D:/ALLEGRO LIBRARY/M25P16_2.dra
+\t (00:00:01) Grids are drawn 0.16, 0.16 apart for enhanced viewability.
+\i (00:00:01) trapsize 12
+\i (00:00:01) trapsize 12
+\i (00:00:01) generaledit 
+\i (00:00:02) replay clear_all 
+\f (00:00:02) Select Script to Replay
+\i (00:00:02) version 15.7 
+\t (00:00:02) Script version: 15.7
+\i (00:00:02) setwindow pcb 
+\i (00:00:02) scriptmode +noerrors 
+\i (00:00:02) scriptmode +invisible 
+\i (00:00:02) trapsize 219 
+\i (00:00:02) color 
+\i (00:00:02) FORM cvf_main class_list Stack-Up
+\i (00:00:02) setwindow form.cvf_main 
+\i (00:00:02) FORM cvf_main class_list Geometry 
+\i (00:00:02) FORM cvf_main global_vis All Invisible 
+\f (00:00:02) Change visibility of all classes?
+\i (00:00:02) fillin yes 
+\i (00:00:02) FORM cvf_main ok 
+\i (00:00:02) setwindow pcb 
+\i (00:00:02) trapsize 12
+\i (00:00:02) generaledit 
+\i (00:00:02) replay top 
+\f (00:00:02) Select Script to Replay
+\i (00:00:02) version 15.7 
+\t (00:00:02) Script version: 15.7
+\i (00:00:02) setwindow pcb 
+\i (00:00:02) scriptmode +noerrors 
+\i (00:00:02) scriptmode +invisible 
+\i (00:00:02) trapsize 219 
+\i (00:00:02) color 
+\i (00:00:02) FORM cvf_main class_list Stack-Up
+\i (00:00:02) setwindow form.cvf_main 
+\i (00:00:02) FORM cvf_main class_list Stack-Up 
+\i (00:00:02) FORM cvf_main pin/top/visible YES 
+\i (00:00:02) FORM cvf_main via_class/top/visible YES 
+\i (00:00:02) FORM cvf_main drc_error_class/top/visible YES 
+\i (00:00:02) FORM cvf_main etch/top/visible YES 
+\i (00:00:02) FORM cvf_main anti_etch/top/visible YES 
+\i (00:00:02) FORM cvf_main boundary/top/visible YES 
+\e (00:00:02) Form field label not found
+\i (00:00:02) FORM cvf_main ok 
+\i (00:00:02) setwindow form.mini 
+\i (00:00:02) FORM mini class ETCH 
+\i (00:00:02) FORM mini subclass TOP 
+\i (00:00:02) setwindow pcb 
+\i (00:00:02) trapsize 12
+\i (00:00:02) generaledit 
+\i (00:00:03) exit 
+\f (00:00:03) Do you want to save the changes you made to M25P16_2.dra?
+\i (00:00:05) fillin no 

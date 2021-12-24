@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFN50P300X200X80-13N.dra                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Oct 26 00:49:43 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols
+    Name      = qfn50p300x200x80-13n.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(     DFA Symbol Update Process                                       )
+(                                                                     )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Apr 16 03:25:45 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+------------------------------------------------------------
+Updating C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/IIS2MDCTR.dra
+
+Converting C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/IIS2MDCTR.dra
+Updating symbol C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/IIS2MDCTR.dra
+Updating DFA_DEV_CLASS property: 
+Updating symbol bounds
+Creating symbol C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/iis2mdctr.psm
+Update succeeded.
+
+
+
+------------------------------------------------------------
+ SUMMARY:
+
+   SUCCESSFUL updated symbols:          1

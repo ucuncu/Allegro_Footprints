@@ -1,0 +1,32 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+done.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+WARNING: DXF Elements are outside the design extents.
+Incresing the extents to accomodate these entities.
+DXF entities may be out of their desired positions.
+NOTE: Ignoring unsupported element HATCH on line 7330.
+NOTE: Ignoring unsupported element SPLINE on line 2202.
+NOTE: Ignoring unsupported element SPLINE on line 2370.
+NOTE: Ignoring unsupported element HATCH on line 3042.
+NOTE: Ignoring unsupported element SPLINE on line 3832.
+NOTE: Ignoring unsupported element HATCH on line 4720.
+NOTE: Ignoring unsupported element SPLINE on line 5450.
+NOTE: Ignoring unsupported element HATCH on line 6458.
+Layer conversion file: C:/Users/Hamit/Desktop/Logo_V2_turuncu_l.cnv
+DXF file: C:/Users/Hamit/Desktop/Logo_V2_turuncu.dxf
+MCM file: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/#Taaaaah12956.dra
+Update existing design?: YES
+Use default text?: YES
+DXF units: MILLIMETERS
+Design units: MILLIMETERS
+Design precision: 4
+dxf2a complete.

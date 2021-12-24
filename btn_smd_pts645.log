@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : btn_SMD_PTS645.dra                            )
+(    Software Version : 17.2S049                                      )
+(    Date/Time        : Wed Dec 26 13:04:00 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+    Name      = btn_smd_pts645.psm
+    User      = A. Selçuk
+    Machine   = DESKTOP-M30Q8B0
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

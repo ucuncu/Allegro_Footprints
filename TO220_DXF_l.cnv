@@ -1,0 +1,220 @@
+#This is the Layer Conversion File used for
+#importing DXF data into Allegro/APD.
+
+#CLASS!            SUBCLASS!                           DXF_LAYER!
+
+BOARD GEOMETRY!
+                   NCROUTE_PATH!                       DXF!
+                   ASSEMBLY_TOP!                       DXF!
+                   ASSEMBLY_BOTTOM!                    DXF!
+                   PASTEMASK_TOP!                      DXF!
+                   CUTOUT!                             DXF!
+                   WB_GUIDE_LINE!                      DXF!
+                   OFF_GRID_AREA!                      DXF!
+                   SOLDERMASK_BOTTOM!                  DXF!
+                   SOLDERMASK_TOP!                     DXF!
+                   ASSEMBLY_DETAIL!                    DXF!
+                   SILKSCREEN_BOTTOM!                  DXF!
+                   SILKSCREEN_TOP!                     DXF!
+                   SWITCH_AREA_BOTTOM!                 DXF!
+                   SWITCH_AREA_TOP!                    DXF!
+                   BOTH_ROOMS!                         DXF!
+                   BOTTOM_ROOM!                        DXF!
+                   TOP_ROOM!                           DXF!
+                   PLACE_GRID_BOTTOM!                  DXF!
+                   PLACE_GRID_TOP!                     DXF!
+                   DIMENSION!                          DXF!
+                   TOOLING_CORNERS!                    DXF!
+                   ASSEMBLY_NOTES!                     DXF!
+                   PLATING_BAR!                        DXF!
+                   OUTLINE!                            DXF!
+
+COMPONENT VALUE!
+                   ASSEMBLY_EMBEDDED!                  DXF!
+                   DISPLAY_EMBEDDED!                   DXF!
+                   DISPLAY_BOTTOM!                     DXF!
+                   DISPLAY_TOP!                        DXF!
+                   SILKSCREEN_BOTTOM!                  DXF!
+                   SILKSCREEN_TOP!                     DXF!
+                   ASSEMBLY_BOTTOM!                    DXF!
+                   ASSEMBLY_TOP!                       DXF!
+
+DEVICE TYPE!
+                   ASSEMBLY_EMBEDDED!                  DXF!
+                   DISPLAY_EMBEDDED!                   DXF!
+                   DISPLAY_BOTTOM!                     DXF!
+                   DISPLAY_TOP!                        DXF!
+                   SILKSCREEN_BOTTOM!                  DXF!
+                   SILKSCREEN_TOP!                     DXF!
+                   ASSEMBLY_BOTTOM!                    DXF!
+                   ASSEMBLY_TOP!                       DXF!
+
+DRAWING FORMAT!
+                   DRAWING_ORIGIN!                     DXF!
+                   REVISION_DATA!                      DXF!
+                   REVISION_BLOCK!                     DXF!
+                   TITLE_DATA!                         DXF!
+                   TITLE_BLOCK!                        DXF!
+                   OUTLINE!                            DXF!
+
+ETCH!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+
+MANUFACTURING!
+                   XSECTION_CHART!                     DXF!
+                   NO_PROBE_BOTTOM!                    DXF!
+                   NO_PROBE_TOP!                       DXF!
+                   NCDRILL_FIGURE!                     DXF!
+                   NO_GLOSS_INTERNAL!                  DXF!
+                   NO_GLOSS_BOTTOM!                    DXF!
+                   NO_GLOSS_TOP!                       DXF!
+                   NO_GLOSS_ALL!                       DXF!
+
+PACKAGE GEOMETRY!
+                   PASTEMASK_BOTTOM!                   DXF!
+                   PASTEMASK_TOP!                      DXF!
+                   DFA_BOUND_BOTTOM!                   DXF!
+                   DFA_BOUND_TOP!                      DXF!
+                   MODULES!                            DXF!
+                   DISPLAY_BOTTOM!                     DXF!
+                   DISPLAY_TOP!                        DXF!
+                   SOLDERMASK_BOTTOM!                  DXF!
+                   SOLDERMASK_TOP!                     DXF!
+                   BODY_CENTER!                        DXF!
+                   SILKSCREEN_BOTTOM!                  DXF!
+                   SILKSCREEN_TOP!                     DXF!
+                   PAD_STACK_NAME!                     DXF!
+                   PIN_NUMBER!                         DXF!
+                   PLACE_BOUND_BOTTOM!                 DXF!
+                   PLACE_BOUND_TOP!                    DXF!
+                   ASSEMBLY_BOTTOM!                    DXF!
+                   ASSEMBLY_TOP!                       DXF!
+
+PACKAGE KEEPIN!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   ALL!                                DXF!
+
+PACKAGE KEEPOUT!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   TOP!                                DXF!
+                   ALL!                                DXF!
+
+PIN!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   FILMMASKBOTTOM!                     DXF!
+                   FILMMASKTOP!                        DXF!
+                   PASTEMASK_BOTTOM!                   DXF!
+                   PASTEMASK_TOP!                      DXF!
+                   SOLDERMASK_BOTTOM!                  DXF!
+                   SOLDERMASK_TOP!                     DXF!
+
+REF DES!
+                   ASSEMBLY_EMBEDDED!                  DXF!
+                   DISPLAY_EMBEDDED!                   DXF!
+                   DISPLAY_BOTTOM!                     DXF!
+                   DISPLAY_TOP!                        DXF!
+                   SILKSCREEN_BOTTOM!                  DXF!
+                   SILKSCREEN_TOP!                     DXF!
+                   ASSEMBLY_BOTTOM!                    DXF!
+                   ASSEMBLY_TOP!                       DXF!
+
+ROUTE KEEPIN!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   ALL!                                DXF!
+
+ROUTE KEEPOUT!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   ALL!                                DXF!
+
+TOLERANCE!
+                   ASSEMBLY_EMBEDDED!                  DXF!
+                   DISPLAY_EMBEDDED!                   DXF!
+                   DISPLAY_BOTTOM!                     DXF!
+                   DISPLAY_TOP!                        DXF!
+                   SILKSCREEN_BOTTOM!                  DXF!
+                   SILKSCREEN_TOP!                     DXF!
+                   ASSEMBLY_BOTTOM!                    DXF!
+                   ASSEMBLY_TOP!                       DXF!
+
+USER PART NUMBER!
+                   ASSEMBLY_EMBEDDED!                  DXF!
+                   DISPLAY_EMBEDDED!                   DXF!
+                   DISPLAY_BOTTOM!                     DXF!
+                   DISPLAY_TOP!                        DXF!
+                   SILKSCREEN_BOTTOM!                  DXF!
+                   SILKSCREEN_TOP!                     DXF!
+                   ASSEMBLY_BOTTOM!                    DXF!
+                   ASSEMBLY_TOP!                       DXF!
+
+VIA CLASS!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   FILMMASKBOTTOM!                     DXF!
+                   FILMMASKTOP!                        DXF!
+                   PASTEMASK_BOTTOM!                   DXF!
+                   PASTEMASK_TOP!                      DXF!
+                   SOLDERMASK_BOTTOM!                  DXF!
+                   SOLDERMASK_TOP!                     DXF!
+
+VIA KEEPOUT!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   ALL!                                DXF!
+
+ANTI ETCH!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   ALL!                                DXF!
+
+CONSTRAINT REGION!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+                   INNER_PLANE_LAYERS!                 DXF!
+                   INNER_SIGNAL_LAYERS!                DXF!
+                   OUTER_LAYERS!                       DXF!
+                   ALL!                                DXF!
+
+CAVITY!
+                   TOP!                                DXF!
+                   PLANE!                              DXF!
+                   INNER!                              DXF!
+                   BOTTOM!                             DXF!
+
+EMBEDDED GEOMETRY!
+                   SOLDERMASK!                         DXF!
+                   CAVITY_OUTLINE!                     DXF!
+                   PASTEMASK!                          DXF!
+                   DISPLAY!                            DXF!
+                   PLACE_BOUND!                        DXF!
+                   ASSEMBLY!                           DXF!
+
+BONDING WIRE!
+                   BOTTOM!                             DXF!
+                   TOP!                                DXF!
+
+#END

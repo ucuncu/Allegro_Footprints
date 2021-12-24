@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : EXV-9B-L.dra                                  )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Mar 28 14:53:33 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = exv-9b-l.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

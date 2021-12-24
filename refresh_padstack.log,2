@@ -1,0 +1,56 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : qfp50p2200x2200x120-144n.dra                  )
+(    Software Version : 16.5S010                                      )
+(    Date/Time        : Wed Feb 05 15:17:46 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Feb 05 15:17:46 2014				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'D:/Devre/LIB/ALLEGRO_LIB/ipc2_symbols/qfp50p2200x2200x120-144n.dra'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.5/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+           D:\Devre\LIB\ALLEGRO_LIB\symbols\ 
+           D:\Devre\LIB\ALLEGRO_LIB\dimod6_lib\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.5/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+           D:\Devre\LIB\ALLEGRO_LIB\symbols\ 
+           D:\Devre\LIB\ALLEGRO_LIB\dimod6_lib\ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'R150_30'  pad stack refresh starting.
+
+     'R150_30'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-253): Unable to find pad stack, 'C100M200K200', in directory search path.
+
+'R150_30_1'  pad stack refresh starting.
+
+     'R150_30_1'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

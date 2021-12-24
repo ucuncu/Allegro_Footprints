@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : conn2x8_amp_TE_RA.dra                         )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Mar 07 10:09:37 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = conn2x8_amp_te_ra.psm
+    User      = Asis
+    Machine   = DESKTOP-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

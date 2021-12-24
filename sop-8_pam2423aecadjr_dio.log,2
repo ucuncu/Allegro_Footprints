@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SOP-8_PAM2423AECADJR_DIO.dra                  )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Dec 11 18:54:55 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/PAM2423AECADJR/AllegroV17_2
+    Name      = sop-8_pam2423aecadjr_dio.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

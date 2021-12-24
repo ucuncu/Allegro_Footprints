@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : son50p300x300x60-11n.dra                      )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Mar 28 19:15:14 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = son50p300x300x60-11n.psm
+    User      = Asis
+    Machine   = DESKTOP-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

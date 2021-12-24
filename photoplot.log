@@ -1,0 +1,72 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : FXAS21002CQR1.dra                             )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Apr 17 13:49:09 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  RECTANGLE  0.01181     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.03150      90.000 NO     DARK 
+
+     TOP created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+
+ ARTWORK had warnings

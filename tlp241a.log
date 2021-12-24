@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TLP241A.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Nov 24 11:18:53 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = tlp241a.psm
+    User      = Asis
+    Machine   = DESKTOP-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

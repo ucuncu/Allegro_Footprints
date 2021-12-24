@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DIPSWITCH8PAD.dra                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Nov 24 11:12:20 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+    Name      = dipswitch8pad.psm
+    User      = Asis
+    Machine   = DESKTOP-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

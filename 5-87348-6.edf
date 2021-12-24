@@ -1,0 +1,398 @@
+
+(EDIF
+  (rename &5_45_87348_45_6 "5-87348-6")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2019 01 29 13 58 51)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &5_45_87348_45_6 "5-87348-6")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename &5_45_87348_45_6 "5-87348-6")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename VALUE "Value") (string "5-87348-6"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &4 "4")
+            (designator "4")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &5 "5")
+            (designator "5")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &6 "6")
+            (designator "6")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 5)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -40000 -30000) (pt 20000 40000)))
+            (portImplementation
+              (name &1
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -20000 30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 30000)
+                    (pt -20000 30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -20000 20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 20000)
+                    (pt -20000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &3
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -20000 10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &4
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -20000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 0)
+                    (pt -20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &5
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -20000 -10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 -10000)
+                    (pt -20000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &6
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -20000 -20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 -20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -40000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -40000 -20000)
+                    (pt -20000 -20000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -30000) (pt -20000 40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 40000) (pt 20000 40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 40000) (pt 20000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 -30000) (pt -20000 -30000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -21968 40000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20000 -40000))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "TE_5-87348-6"))
+            (property
+              (rename EU_RoHS_Compliance "EU_RoHS_Compliance")
+              (string
+              (stringDisplay "Compliant"))
+            )
+            (property
+              (rename TE_purchase_URL "TE_purchase_URL")
+              (string
+              (stringDisplay "https://www.te.com/usa-en/product-5-87348-6.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Conn Unshrouded Header HDR 6 POS 2.54mm Solder ST Thru-Hole Carton
+"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "5-87348-6"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename Comment "Comment")
+              (string
+              (stringDisplay "5-87348-6"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Unavailable"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "TE Connectivity"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "None"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : qfp50p2200x2200x120-144n.dra                  )
+(    Software Version : 16.5S010                                      )
+(    Date/Time        : Wed Feb 05 15:17:56 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Devre/LIB/ALLEGRO_LIB/ipc2_symbols
+    Name      = qfp50p2200x2200x120-144n.psm
+    User      = Sinan
+    Machine   = SINAN_PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

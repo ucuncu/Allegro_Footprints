@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : conn_df30fc_24ds_04v.dra                      )
+(    Software Version : 16.6-2015S095                                 )
+(    Date/Time        : Fri Aug 04 09:36:30 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Devre/LIB/ALLEGRO_LIB/symbols
+    Name      = conn_df30fc_24ds_04v.psm
+    User      = user3_PC
+    Machine   = USER3_PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

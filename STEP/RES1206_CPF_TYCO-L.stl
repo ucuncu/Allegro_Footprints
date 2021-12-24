@@ -1,0 +1,254 @@
+solid RES1206_CPF_TYCO-L
+facet normal 1 0 0
+  outer loop
+    vertex 45 -33.5 1
+    vertex 45 33.5 25
+    vertex 45 -33.5 25
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex 45 -33.5 1
+    vertex 45 33.5 1
+    vertex 45 33.5 25
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -45 33.5 1
+    vertex -45 -33.5 25
+    vertex -45 33.5 25
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -45 33.5 1
+    vertex -45 -33.5 1
+    vertex -45 -33.5 25
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -45 -33.5 1
+    vertex 45 -33.5 25
+    vertex -45 -33.5 25
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -45 -33.5 1
+    vertex 45 -33.5 1
+    vertex 45 -33.5 25
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 45 33.5 1
+    vertex -45 33.5 25
+    vertex 45 33.5 25
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 45 33.5 1
+    vertex -45 33.5 1
+    vertex -45 33.5 25
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 45 -33.5 1
+    vertex -45 33.5 1
+    vertex 45 33.5 1
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 45 -33.5 1
+    vertex -45 -33.5 1
+    vertex -45 33.5 1
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 45 -33.5 25
+    vertex 45 33.5 25
+    vertex -45 33.5 25
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 45 -33.5 25
+    vertex -45 33.5 25
+    vertex -45 -33.5 25
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex 65 -34.5 0
+    vertex 65 34.5 26
+    vertex 65 -34.5 26
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex 65 -34.5 0
+    vertex 65 34.5 0
+    vertex 65 34.5 26
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex 45 34.5 0
+    vertex 45 -34.5 26
+    vertex 45 34.5 26
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex 45 34.5 0
+    vertex 45 -34.5 0
+    vertex 45 -34.5 26
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex 45 -34.5 0
+    vertex 65 -34.5 26
+    vertex 45 -34.5 26
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex 45 -34.5 0
+    vertex 65 -34.5 0
+    vertex 65 -34.5 26
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 65 34.5 0
+    vertex 45 34.5 26
+    vertex 65 34.5 26
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 65 34.5 0
+    vertex 45 34.5 0
+    vertex 45 34.5 26
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 65 -34.5 0
+    vertex 45 34.5 0
+    vertex 65 34.5 0
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 65 -34.5 0
+    vertex 45 -34.5 0
+    vertex 45 34.5 0
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 65 -34.5 26
+    vertex 65 34.5 26
+    vertex 45 34.5 26
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 65 -34.5 26
+    vertex 45 34.5 26
+    vertex 45 -34.5 26
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -65 34.5 0
+    vertex -65 -34.5 26
+    vertex -65 34.5 26
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -65 34.5 0
+    vertex -65 -34.5 0
+    vertex -65 -34.5 26
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex -45 -34.5 0
+    vertex -45 34.5 26
+    vertex -45 -34.5 26
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex -45 -34.5 0
+    vertex -45 34.5 0
+    vertex -45 34.5 26
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex -45 34.5 0
+    vertex -65 34.5 26
+    vertex -45 34.5 26
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex -45 34.5 0
+    vertex -65 34.5 0
+    vertex -65 34.5 26
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -65 -34.5 0
+    vertex -45 -34.5 26
+    vertex -65 -34.5 26
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -65 -34.5 0
+    vertex -45 -34.5 0
+    vertex -45 -34.5 26
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex -65 34.5 0
+    vertex -45 -34.5 0
+    vertex -65 -34.5 0
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex -65 34.5 0
+    vertex -45 34.5 0
+    vertex -45 -34.5 0
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex -65 34.5 26
+    vertex -65 -34.5 26
+    vertex -45 -34.5 26
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex -65 34.5 26
+    vertex -45 -34.5 26
+    vertex -45 34.5 26
+  endloop
+endfacet
+endsolid RES1206_CPF_TYCO-L

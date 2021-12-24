@@ -1,0 +1,8 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Apr 17 14:22:39 2019
+\t (00:00:00)         Host=HAMIT-PC User=Hamit Pid=11220 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\cadence\cadence_spb_17.2-2016\tools\bin\padstack_editor.exe C:\Cadence\Cadence\Cadence_SPB_17.2-2016\share\pcb\pcb_lib\symbols\CAP FOOT\r018x020s.pad
+\t (00:00:00) 
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\t (00:00:06)     Journal end - Wed Apr 17 14:22:46 2019

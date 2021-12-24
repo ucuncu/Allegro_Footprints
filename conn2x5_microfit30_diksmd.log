@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : conn2x5_microfit30_diksmd.dra                 )
+(    Software Version : 17.2S049                                      )
+(    Date/Time        : Tue Dec 25 08:56:31 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+    Name      = conn2x5_microfit30_diksmd.psm
+    User      = A. Selçuk
+    Machine   = DESKTOP-M30Q8B0
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

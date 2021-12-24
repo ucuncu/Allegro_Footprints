@@ -1,0 +1,87 @@
+\t (00:00:04) apd 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Fri Dec 03 12:04:39 2021
+\t (00:00:04)         Host=HAMIT-PC User=Hamit Pid=14980 CPUs=8
+\t (00:00:04) CmdLine= C:\Cadence\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/switch_12_12.dra
+\i (00:00:08) trapsize 26
+\i (00:00:08) trapsize 28
+\i (00:00:08) trapsize 30
+\i (00:00:08) generaledit 
+\i (00:00:10) zoom out 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -4.486 2.201
+\i (00:00:10) trapsize 60
+\i (00:00:10) zoom out 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -4.487 2.200
+\i (00:00:10) trapsize 120
+\i (00:00:17) add rect 
+\i (00:00:24) setwindow form.mini
+\i (00:00:24) FORM mini subclass SILKSCREEN_TOP 
+\i (00:00:30) FORM mini rec_place YES 
+\i (00:00:34) FORM mini rec_width 12.000 
+\i (00:00:34) FORM mini rec_height 12.000 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) pick grid -21.166 8.110
+\t (00:00:36) last pick:  -21.200 8.100
+\i (00:00:36) prepopup -16.428 5.645
+\i (00:00:37) done 
+\i (00:00:38) generaledit 
+\i (00:00:39) move 
+\t (00:00:39) Select element(s) to move.
+\i (00:00:39) prepopup -17.098 4.065
+\i (00:00:44) pop dyn_option_select 'Snap pick to@:@Persistent snap@:@Shape Center' 
+\i (00:00:45) pick grid -14.753 8.014
+\t (00:00:45) last pick:  -14.800 8.000
+\t (00:00:45) last pick:  -15.200 2.100
+\t (00:00:45) Element has no origin, using pick.
+\t (00:00:45) Pick new location for the element(s).
+\i (00:00:50) pick 0 y 0 
+\t (00:00:50) last pick:  0.000 0.000
+\i (00:00:52) save 
+\i (00:00:54) fillin yes 
+\t (00:00:54) Symbol 'switch_12_12.psm' created.
+\i (00:00:54) generaledit 
+\i (00:00:57) add rect 
+\i (00:01:01) setwindow form.mini
+\i (00:01:01) FORM mini rec_width 15.000 
+\i (00:01:02) FORM mini rec_height 15.000 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) pick grid -20.305 8.445
+\t (00:01:03) last pick:  -20.300 8.400
+\i (00:01:04) prepopup -18.199 7.057
+\i (00:01:04) done 
+\i (00:01:04) generaledit 
+\i (00:01:05) move 
+\t (00:01:05) Select element(s) to move.
+\i (00:01:06) pick grid -16.596 8.373
+\t (00:01:06) last pick:  -16.600 8.400
+\t (00:01:06) last pick:  -12.800 0.900
+\t (00:01:06) Element has no origin, using pick.
+\t (00:01:06) Pick new location for the element(s).
+\e (00:01:11) Command not found: x0 y 0
+\i (00:01:17) pick 0 y 0 
+\t (00:01:17) last pick:  0.000 0.000
+\i (00:01:20) save 
+\i (00:01:21) fillin yes 
+\t (00:01:21) Symbol 'switch_12_12.psm' created.
+\i (00:01:21) generaledit 
+\i (00:01:21) prepopup -15.064 5.453
+\i (00:01:22) pick grid -15.878 6.052
+\t (00:01:22) last pick:  -15.900 6.100
+\i (00:01:28) move 
+\t (00:01:28) Select element(s) to move.
+\i (00:01:31) pick grid -14.155 6.339
+\t (00:01:31) last pick:  -14.200 6.300
+\i (00:02:02) prepopup -16.021 8.301
+\i (00:02:03) done 
+\i (00:02:03) generaledit 
+\i (00:02:04) save 
+\i (00:02:06) fillin yes 
+\t (00:02:06) Symbol 'switch_12_12.psm' created.
+\i (00:02:06) generaledit 
+\i (00:02:23) exit 
+\t (00:02:23)     Journal end - Fri Dec 03 12:06:58 2021

@@ -1,0 +1,298 @@
+(edif SAMTEC_TSW_105_07_X_S_EDF
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2018 05 21 01 01 01)
+      (program "alg2edif"
+        (version "Samtec Allegro Skill Edif Writer"))
+      (author "Allegro")
+      (dataOrigin "Cadence Allegro"
+        (version "SPB 16.6"))))
+  (library DESIGN0
+    (edifLevel 0)
+    (technology (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)) (gridMap 1 1))
+      (figureGroup PIN
+        (color 100 0 0)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 10)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 7)))
+      (figureGroup JUNCTION
+        (color 100 0 100)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 10)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true)))) 
+        (property TEXTWIDTH (integer 7)))
+      (figureGroup WIRE
+        (color 50 0 25)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 10)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 7)))
+      (figureGroup BUS
+        (color 0 0 100)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 10)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 7)))
+      (figureGroup PARTBODY
+        (color 0 0 100)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 8)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 5)))
+      (figureGroup PINNUMBER
+        (color 0 0 0)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 6)))
+      (figureGroup PINNAME
+        (color 0 25 50)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 6)))
+      (figureGroup PAGEBORDER
+        (color 0 0 100)
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 10)
+        (pathWidth 0)
+        (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 7) ))
+      (figureGroup TITLEBLOCK
+        (color 0 0 0) (cornerType TRUNCATE) (endType TRUNCATE) (textHeight 8) (pathWidth 0) (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 5) ))
+      (figureGroup DISPLAYPROPERTY 
+        (color 0 0 0) (cornerType TRUNCATE) (endType TRUNCATE) (textHeight 9) (pathWidth 0) (fillPattern 1 1 (boolean (boolean (true))))
+        (property TEXTWIDTH (integer 6) ))
+      (figureGroup PARTREFERENCE (color 0 0 50) (cornerType TRUNCATE) (endType TRUNCATE) (textHeight 9) (pathWidth 0) (fillPattern 1 1 (boolean (boolean (true)))) (property TEXTWIDTH (integer 6) ))
+      (figureGroup ALIAS (color 100 0 0) (cornerType TRUNCATE) (endType TRUNCATE) (textHeight 9) (pathWidth 0) (fillPattern 1 1 (boolean (boolean (true)))) (property TEXTWIDTH (integer 6) ))
+    )
+    (cell PIN_ZERO
+      (cellType GENERIC)
+      (property CELLTYPE (string "symbolPort") )
+      (view PIN_ZERO (viewType GRAPHIC) (interface)))
+    (cell PIN_ZERO_INVIS
+      (cellType GENERIC)
+      (property CELLTYPE (string "symbolPort") )
+      (view PIN_ZERO_INVIS (viewType GRAPHIC) (interface)))
+    (cell JUNCTION (cellType TIE)
+      (view JUNCTION (viewType SCHEMATIC) (interface (port FAKE_TIE_PORT) (symbol (figure (figureGroupOverride JUNCTION (color 100 0 0)) (circle (pt 2 0) (pt -2 0)))))))
+    (cell PAGE_BORDER_TEMPLATE
+      (cellType GENERIC)
+      (property CELLTYPE (string "pageTemplate") ) (property ETCCELLTYPE (string "pageBorder") )
+      (view PAGE_BORDER_TEMPLATE
+        (viewType GRAPHIC)
+        (interface)
+        (userData backgroundColor (color 100 100 100) )
+        (contents (figure (figureGroupOverride PAGEBORDER (fillPattern 1 1 (boolean (boolean (false)))))
+            (rectangle (pt 0 -720) (pt 970 0))))))
+    (cell PIN_SHORT
+      (cellType GENERIC)
+      (property CELLTYPE (string "symbolPort") )
+      (view PIN_SHORT
+        (viewType GRAPHIC)
+        (interface)
+        (contents (figure (figureGroupOverride PIN (fillPattern 1 1 (boolean (boolean (false))))) (path (pointList (pt 0 0) (pt 10 0)))))))
+    (cell PIN_DOT
+      (cellType GENERIC)
+      (property CELLTYPE (string "symbolPort") )
+      (view PIN_DOT
+        (viewType GRAPHIC)
+        (interface)
+        (contents 
+          (figure (figureGroupOverride PIN (fillPattern 1 1 (boolean (boolean (false))))) (path (pointList (pt 0 0) (pt 4 0))))
+          (figure (figureGroupOverride PIN (fillPattern 1 1 (boolean (boolean (false))))) (circle (pt 10 0) (pt 4 0))))))
+    (cell BUS_BTM_LEFT_RIP
+      (cellType RIPPER)
+      (view BUS_BTM_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array BUNDLE 512)) (port (array WIRE 512)) (joined (portRef BUNDLE) (portRef WIRE))
+          (symbol 
+            (figure (figureGroupOverride WIRE (fillPattern 1 1 (boolean (boolean (false))))) (path (pointList (pt 0 -10) (pt 10 0))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 0 -10)))))
+            (portImplementation WIRE (connectLocation (figure PIN (dot (pt 10 0)))))))))
+    (cell NET_BTM_LEFT_RIP
+      (cellType RIPPER)
+      (view NET_BTM_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array WIRE 512)) (port (array BUNDLE 512)) (joined (portRef WIRE) (portRef BUNDLE))
+          (symbol
+            (figure (figureGroupOverride WIRE (fillPattern 1 1 (boolean (boolean (false))))) (path (pointList (pt 0 -10) (pt 10 0))))
+            (portImplementation WIRE (connectLocation (figure PIN (dot (pt 0 -10)))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 10 0)))))))))
+    (cell BUSWIDE_BTM_LEFT_RIP
+      (cellType RIPPER)
+      (view BUSWIDE_BTM_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array BUNDLE 512)) (port (array WIRE 512)) (joined (portRef BUNDLE) (portRef WIRE))
+          (symbol
+            (figure (figureGroupOverride BUS (fillPattern 1 1 (boolean (boolean (false)))) (pathWidth 6)) (path (pointList (pt 0 -10) (pt 10 0))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 0 -10)))))
+            (portImplementation WIRE (connectLocation (figure PIN (dot (pt 10 0)))))))))
+    (cell BUSTHIN_BTM_LEFT_RIP
+      (cellType RIPPER)
+      (view BUSTHIN_BTM_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array WIRE 512)) (port (array BUNDLE 512)) (joined (portRef WIRE) (portRef BUNDLE))
+          (symbol
+            (figure (figureGroupOverride BUS (fillPattern 1 1 (boolean (boolean (false)))) (pathWidth 6)) (path (pointList (pt 0 -10) (pt 10 0))))
+            (portImplementation WIRE (connectLocation (figure PIN (dot (pt 0 -10)))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 10 0)))))))))
+    (cell BUS_TOP_LEFT_RIP
+      (cellType RIPPER)
+      (view BUS_TOP_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array BUNDLE 512)) (port (array WIRE 512)) (joined (portRef BUNDLE) (portRef WIRE))
+          (symbol
+            (figure (figureGroupOverride WIRE (fillPattern 1 1 (boolean (boolean (false))))) (path (pointList (pt 0 0) (pt 10 -10))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 0 0)))))
+            (portImplementation WIRE (connectLocation (figure PIN (dot (pt 10 -10)))))))))
+    (cell NET_TOP_LEFT_RIP
+      (cellType RIPPER)
+      (view NET_TOP_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array WIRE 512)) (port (array BUNDLE 512)) (joined (portRef WIRE) (portRef BUNDLE))
+          (symbol
+            (figure (figureGroupOverride WIRE (fillPattern 1 1 (boolean (boolean (false))))) (path (pointList (pt 0 0) (pt 10 -10))))
+            (portImplementation WIRE (connectLocation (figure PIN (dot (pt 0 0)))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 10 -10)))))))))
+    (cell BUSWIDE_TOP_LEFT_RIP
+      (cellType RIPPER)
+      (view BUSWIDE_TOP_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array BUNDLE 512)) (port (array WIRE 512)) (joined (portRef BUNDLE) (portRef WIRE))
+          (symbol
+            (figure (figureGroupOverride BUS (fillPattern 1 1 (boolean (boolean (false)))) (pathWidth 6)) (path (pointList (pt 0 0) (pt 10 -10))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 0 0)))))
+            (portImplementation WIRE (connectLocation (figure PIN (dot (pt 10 -10)))))))))
+    (cell BUSTHIN_TOP_LEFT_RIP
+      (cellType RIPPER)
+      (view BUSTHIN_TOP_LEFT_RIP
+        (viewType SCHEMATIC)
+        (interface (port (array WIRE 512)) (port (array BUNDLE 512)) (joined (portRef WIRE) (portRef BUNDLE))
+          (symbol
+            (figure (figureGroupOverride BUS (fillPattern 1 1 (boolean (boolean (false)))) (pathWidth 6)) (path (pointList (pt 0 0) (pt 10 -10))))
+            (portImplementation BUNDLE (connectLocation (figure PIN (dot (pt 10 -10)))))))))
+    (cell (rename TITLEBLOCK0 "TitleBlock0")
+      (cellType GENERIC)
+      (property CELLTYPE (string "pageTemplate") )
+      (property ETCCELLTYPE (string "pageTitleBlock") )
+      (view (rename TITLEBLOCK0 "TitleBlock0")
+      (viewType GRAPHIC)
+      (interface)
+      (property (rename PAGE_CREATE_DATE "Page Create Date") (string "    March  8, 1995"))
+      (property (rename DOC "Doc") (string ""))
+      (property (rename REVCODE "RevCode") (string "?"))
+      (property (rename TITLE "Title") (string ""))
+      (property (rename PAGE_SIZE "Page Size") (string "A"))
+      (property (rename PAGE_NUMBER "Page Number") (string "1"))
+      (property (rename PAGE_COUNT "Page Count") (string "1"))
+      (property (rename NAME "Name") (string "TitleBlock0"))
+      (property (rename PAGE_MODIFY_DATE "Page Modify Date") (string ""))
+      (userData backgroundColor (color 100 100 100) )
+      (contents
+          (commentGraphics
+            (annotate (stringDisplay "Title" (display (figureGroupOverride TITLEBLOCK (textHeight 9) (property TEXTWIDTH (integer 6) )) (justify UPPERLEFT) (origin (pt 0 -20)))))
+            (annotate (stringDisplay "Size" (display (figureGroupOverride TITLEBLOCK (textHeight 9) (property TEXTWIDTH (integer 6) )) (justify UPPERLEFT) (origin (pt 0 -50)))))
+            (annotate (stringDisplay "Document Number" (display (figureGroupOverride TITLEBLOCK (textHeight 9) (property TEXTWIDTH (integer 6) )) (justify UPPERLEFT) (origin (pt 40 -50)))))
+            (annotate (stringDisplay "Rev" (display (figureGroupOverride TITLEBLOCK (textHeight 9) (property TEXTWIDTH (integer 6) )) (justify UPPERLEFT) (origin (pt 330 -50)))))
+            (annotate (stringDisplay "Date:" (display (figureGroupOverride TITLEBLOCK (textHeight 9) (property TEXTWIDTH (integer 6) )) (justify UPPERLEFT) (origin (pt 0 -80)))))
+            (annotate (stringDisplay "Sheet" (display (figureGroupOverride TITLEBLOCK (textHeight 9) (property TEXTWIDTH (integer 6) )) (justify UPPERLEFT) (origin (pt 200 -80))))) 
+            (annotate (stringDisplay "of" (display (figureGroupOverride TITLEBLOCK (textHeight 9) (property TEXTWIDTH (integer 6) )) (justify UPPERLEFT) (origin (pt 280 -80)))))
+            (property (rename DOC "Doc") (string (stringDisplay "" (display DISPLAYPROPERTY (justify UPPERLEFT) (origin (pt 40 -60))))))
+            (property (rename REVCODE "RevCode") (string (stringDisplay "?" (display DISPLAYPROPERTY (justify UPPERLEFT) (origin (pt 340 -60))))))
+            (property (rename TITLE "Title") (string (stringDisplay "" (display DISPLAYPROPERTY (justify UPPERLEFT) (origin (pt 40 -30))))))
+            (property (rename PAGE_SIZE "Page Size") (string (stringDisplay "A" (display DISPLAYPROPERTY (justify UPPERLEFT) (origin (pt 10 -60))))))
+            (property (rename PAGE_NUMBER "Page Number") (string (stringDisplay "1" (display DISPLAYPROPERTY (justify UPPERLEFT) (origin (pt 250 -80))))))
+            (property (rename PAGE_COUNT "Page Count") (string (stringDisplay "1" (display DISPLAYPROPERTY (justify UPPERLEFT) (origin (pt 310 -80))))))
+            (property (rename PAGE_MODIFY_DATE "Page Modify Date") (string (stringDisplay "" (display DISPLAYPROPERTY (justify UPPERLEFT) (origin (pt 52 -80)))))))
+          (figure (figureGroupOverride TITLEBLOCK (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 0 -20) (pt 360 0)))
+          (figure (figureGroupOverride TITLEBLOCK (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 0 -50) (pt 360 -20)))
+          (figure (figureGroupOverride TITLEBLOCK (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 0 -80) (pt 30 -50)))
+          (figure (figureGroupOverride TITLEBLOCK (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 30 -80) (pt 330 -50)))
+          (figure (figureGroupOverride TITLEBLOCK (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 330 -80) (pt 360 -50)))
+          (figure (figureGroupOverride TITLEBLOCK (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 0 -90) (pt 200 -80)))
+          (figure (figureGroupOverride TITLEBLOCK (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 200 -90) (pt 360 -80))))))
+    (cell &SAMTEC_TSW_105_07_X_SA
+      (cellType GENERIC)
+      (property (rename PACKAGEHETEROGENEOUS "PackageHeterogeneous") (string "SAMTEC-TSW-105-07-X-S"))
+      (property (rename POSITIONINPACKAGE "PositionInPackage") (string "A,_"))
+      (property (rename NUMBER_DEVICES_IN_PACKAGE "Number devices in Package") (string "1"))
+      (view &SAMTEC_TSW_105_07_X_SA_NORMAL
+        (viewtype SCHEMATIC)
+        (interface
+          (port p1 (designator "1"))
+          (port p2 (designator "2"))
+          (port p3 (designator "3"))
+          (port p4 (designator "4"))
+          (port p5 (designator "5"))
+          (designator "J?")
+          (symbol
+              (portImplementation (name p1 (display PINNAME (origin (pt 6 -10)))) 
+                (keywordDisplay designator (display PINNUMBER (origin (pt -8 -10))))
+                (figure PIN (path (pointList (pt -30 -10)(pt 0 -10))))
+                (connectLocation (figure PARTBODY (dot (pt -30 -10)))))
+              (portImplementation (name p2 (display PINNAME (origin (pt 6 -20)))) 
+                (keywordDisplay designator (display PINNUMBER (origin (pt -8 -20))))
+                (figure PIN (path (pointList (pt -30 -20)(pt 0 -20))))
+                (connectLocation (figure PARTBODY (dot (pt -30 -20)))))
+              (portImplementation (name p3 (display PINNAME (origin (pt 6 -30)))) 
+                (keywordDisplay designator (display PINNUMBER (origin (pt -8 -30))))
+                (figure PIN (path (pointList (pt -30 -30)(pt 0 -30))))
+                (connectLocation (figure PARTBODY (dot (pt -30 -30)))))
+              (portImplementation (name p4 (display PINNAME (origin (pt 6 -40)))) 
+                (keywordDisplay designator (display PINNUMBER (origin (pt -8 -40))))
+                (figure PIN (path (pointList (pt -30 -40)(pt 0 -40))))
+                (connectLocation (figure PARTBODY (dot (pt -30 -40)))))
+              (portImplementation (name p5 (display PINNAME (origin (pt 6 -50)))) 
+                (keywordDisplay designator (display PINNUMBER (origin (pt -8 -50))))
+                (figure PIN (path (pointList (pt -30 -50)(pt 0 -50))))
+                (connectLocation (figure PARTBODY (dot (pt -30 -50)))))
+              (figure (figureGroupOverride PARTBODY (fillPattern 1 1 (boolean (boolean (false))))) (rectangle (pt 0 -60) (pt 40 0)))
+              (keywordDisplay designator (display PARTREFERENCE (justify UPPERLEFT) (origin (pt 0 10))))
+            (property (rename PART_NUMBER "Part_number")
+               (string (stringDisplay "<Part_number>"
+                  (display (figureGroupOverride DISPLAYPROPERTY (textHeight 8) (property TEXTWIDTH (integer 5)))
+                    (justify UPPERLEFT)
+                    (origin (pt 0 -60))))))
+            (property (rename VALUE "Value")
+               (string (stringDisplay "<Value>"
+                  (display (figureGroupOverride DISPLAYPROPERTY (textHeight 8) (property TEXTWIDTH (integer 5)))
+                    (justify UPPERLEFT)
+                    (origin (pt 0 -70))))))
+            (property (rename DESCRIPTION "Description")
+               (string (stringDisplay "SAMTEC-TSW-105-07-X-S"
+                  (display (figureGroupOverride DISPLAYPROPERTY (textHeight 8) (property TEXTWIDTH (integer 5)))
+                    (justify UPPERLEFT)
+                    (origin (pt 0 -80))))))
+           ))))
+    (cell SCHEMATIC0
+      (cellType GENERIC)
+      (view SCHEMATIC0_SCH
+        (viewType SCHEMATIC)
+        (interface)
+        (contents
+  ))))
+  (design SCHEMATIC0
+    (cellRef SCHEMATIC0
+      (LibraryRef DESIGN0))))

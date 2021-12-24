@@ -1,0 +1,289 @@
+
+(EDIF
+  (rename TL3315NF100Q "TL3315NF100Q")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2018 04 10 05 54 45)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename TL3315NF100Q "TL3315NF100Q")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename PUSH_45_BUTTON_45_SWITCH "PUSH-BUTTON-SWITCH")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "S")
+          (property (rename VALUE "Value") (string "PUSH-BUTTON-SWITCH"))
+          (port
+            (rename P_36_1 "P$1")
+            (designator "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename P_36_1__1 "P$1__1")
+            (designator "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename P_36_2 "P$2")
+            (designator "3")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename P_36_2__1 "P$2__1")
+            (designator "4")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -10000) (pt 30000 20000)))
+            (portImplementation
+              (name P_36_1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 0)
+                    (pt -10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name P_36_2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name P_36_1__1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 -10000)
+                    (pt -10000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name P_36_2__1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 -10000)
+                    (pt 10000 -9999)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 0) (pt -10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 30000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt 5000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 15000) (pt -10000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 20000) (pt 0 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 20000) (pt 10000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 20000) (pt 10000 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt 0 4000)))
+            )
+            (figure PARTBODY
+              (circle (pt 8585 0) (pt 11414 0))
+            )
+            (figure PARTBODY
+              (circle (pt -11414 0) (pt -8585 0))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -10019 -20019))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 8000) (pt 0 12000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 16000) (pt 0 20000)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "TL3315NF100Q"))
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "E-Switch"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "0.13 USD"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "TL3315NF100Q"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Good"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+TL3315 Series SPST 1 N Round Button J-Bend SMT Low Profile Tactile Switch
+
+"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

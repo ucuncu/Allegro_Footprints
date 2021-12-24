@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 2li_klemens_150mils.dra                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sun Dec 09 12:29:13 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+    Name      = 2li_klemens_150mils.psm
+    User      = A. Selçuk
+    Machine   = DESKTOP-M30Q8B0
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

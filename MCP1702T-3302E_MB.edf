@@ -1,0 +1,261 @@
+
+(EDIF
+  (rename MCP1702T_45_3302EMB "MCP1702T-3302EMB")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2020 01 22 18 12 15)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename MCP1702T_45_3302EMB "MCP1702T-3302EMB")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename MCP1702T_45_3302EMB "MCP1702T-3302EMB")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "MCP1702T-3302EMB"))
+          (port
+            (rename GND "GND")
+            (designator "1")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VIN "VIN")
+            (designator "2")
+            (direction INPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_IN")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename VOUT "VOUT")
+            (designator "3")
+            (direction OUTPUT)
+            (property
+              (rename TYPE "Type")
+              (string "DBO_OUT")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -60000 -20000) (pt 60000 20000)))
+            (portImplementation
+              (name VIN
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -40000 10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -56062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -60000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -60000 10000)
+                    (pt -40000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name VOUT
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 40000 10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 56062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 60000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 60000 10000)
+                    (pt 40000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 40000 -10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 56062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 60000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 60000 -10000)
+                    (pt 40000 -10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 20000) (pt -40000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -40000 -20000) (pt 40000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 40000 -20000) (pt 40000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 40000 20000) (pt -40000 20000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40000 23000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40000 -30000))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "REG_MCP1702T-3302EMB"))
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "MCP1702T-3302E/MB"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "SOT-89 Microchip"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Unavailable"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Microchip"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Linear Voltage Regulator IC Positive Fixed 1 Output 250mA SOT-89-3
+"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

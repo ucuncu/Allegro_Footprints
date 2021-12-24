@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SO6_SOT23-6L.dra                              )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Dec 11 19:04:19 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/SRV05-4_TCT/AllegroV17_2
+    Name      = so6_sot23-6l.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

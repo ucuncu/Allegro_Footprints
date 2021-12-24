@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : FXAS21002CQR1.dra                             )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Apr 17 13:50:45 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Apr 17 13:50:45 2019				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/FXAS21002CQR1.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'R80_30'  pad stack refresh starting.
+
+     'R80_30'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

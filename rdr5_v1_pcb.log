@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : RDR5_V1_PCB.dra                               )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Tue May 16 11:41:19 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = D:/Devre/LIB/ALLEGRO_LIB/symbols
+    Name      = rdr5_v1_pcb.bsm
+    User      = user3_PC
+    Machine   = USER3_PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

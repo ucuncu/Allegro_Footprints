@@ -1,0 +1,19 @@
+Reading Layer Conversion File 
+Enhanced Nclegend-x-x subclasses not found.
+Using Ncdrill_figure subclass.
+Enhanced Nclegend-x-x subclasses not found.
+Using Ncdrill_figure subclass.
+Enhanced Nclegend-x-x subclasses not found.
+Using Ncdrill_figure subclass.
+Enhanced Nclegend-x-x subclasses not found.
+Using Ncdrill_figure subclass.
+Layer conversion file: TO220_DXF_l.cnv
+DXF file: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/TO220_DXF.dxf
+BRD file: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/to220wrad_irf5210.dra
+Export symbols as blocks?: NO
+Default symbol height: 0.00
+Export padstacks as blocks?: NO
+Export drill information?: YES
+DXF units: MILLIMETERS
+DXF precision: 2
+a2dxf complete.

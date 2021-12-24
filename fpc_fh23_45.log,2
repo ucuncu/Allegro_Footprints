@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : FPC_FH23_45.dra                               )
+(    Software Version : 17.2S049                                      )
+(    Date/Time        : Wed Dec 19 21:40:48 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+    Name      = fpc_fh23_45.psm
+    User      = A. Selçuk
+    Machine   = DESKTOP-M30Q8B0
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

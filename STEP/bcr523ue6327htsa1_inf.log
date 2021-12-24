@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BCR523UE6327HTSA1_INF.dra                     )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Dec 15 18:26:06 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence/Cadence_SPB_17.2-2016/tools/capture/library/my_personal_library/BRC523/AllegroV17_2
+    Name      = bcr523ue6327htsa1_inf.psm
+    User      = Hamit
+    Machine   = HAMIT-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

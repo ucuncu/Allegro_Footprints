@@ -1,0 +1,254 @@
+solid YAG_R0603
+facet normal 1 0 0
+  outer loop
+    vertex 17.5 -17 1
+    vertex 17.5 17 21
+    vertex 17.5 -17 21
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex 17.5 -17 1
+    vertex 17.5 17 1
+    vertex 17.5 17 21
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -17.5 17 1
+    vertex -17.5 -17 21
+    vertex -17.5 17 21
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -17.5 17 1
+    vertex -17.5 -17 1
+    vertex -17.5 -17 21
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -17.5 -17 1
+    vertex 17.5 -17 21
+    vertex -17.5 -17 21
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -17.5 -17 1
+    vertex 17.5 -17 1
+    vertex 17.5 -17 21
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 17.5 17 1
+    vertex -17.5 17 21
+    vertex 17.5 17 21
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 17.5 17 1
+    vertex -17.5 17 1
+    vertex -17.5 17 21
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 17.5 -17 1
+    vertex -17.5 17 1
+    vertex 17.5 17 1
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 17.5 -17 1
+    vertex -17.5 -17 1
+    vertex -17.5 17 1
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 17.5 -17 21
+    vertex 17.5 17 21
+    vertex -17.5 17 21
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 17.5 -17 21
+    vertex -17.5 17 21
+    vertex -17.5 -17 21
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex 33.5 -18 0
+    vertex 33.5 18 22
+    vertex 33.5 -18 22
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex 33.5 -18 0
+    vertex 33.5 18 0
+    vertex 33.5 18 22
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex 17.5 18 0
+    vertex 17.5 -18 22
+    vertex 17.5 18 22
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex 17.5 18 0
+    vertex 17.5 -18 0
+    vertex 17.5 -18 22
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex 17.5 -18 0
+    vertex 33.5 -18 22
+    vertex 17.5 -18 22
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex 17.5 -18 0
+    vertex 33.5 -18 0
+    vertex 33.5 -18 22
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 33.5 18 0
+    vertex 17.5 18 22
+    vertex 33.5 18 22
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex 33.5 18 0
+    vertex 17.5 18 0
+    vertex 17.5 18 22
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 33.5 -18 0
+    vertex 17.5 18 0
+    vertex 33.5 18 0
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 33.5 -18 0
+    vertex 17.5 -18 0
+    vertex 17.5 18 0
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 33.5 -18 22
+    vertex 33.5 18 22
+    vertex 17.5 18 22
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 33.5 -18 22
+    vertex 17.5 18 22
+    vertex 17.5 -18 22
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -33.5 18 0
+    vertex -33.5 -18 22
+    vertex -33.5 18 22
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex -33.5 18 0
+    vertex -33.5 -18 0
+    vertex -33.5 -18 22
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex -17.5 -18 0
+    vertex -17.5 18 22
+    vertex -17.5 -18 22
+  endloop
+endfacet
+facet normal 1 0 0
+  outer loop
+    vertex -17.5 -18 0
+    vertex -17.5 18 0
+    vertex -17.5 18 22
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex -17.5 18 0
+    vertex -33.5 18 22
+    vertex -17.5 18 22
+  endloop
+endfacet
+facet normal 0 1 0
+  outer loop
+    vertex -17.5 18 0
+    vertex -33.5 18 0
+    vertex -33.5 18 22
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -33.5 -18 0
+    vertex -17.5 -18 22
+    vertex -33.5 -18 22
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex -33.5 -18 0
+    vertex -17.5 -18 0
+    vertex -17.5 -18 22
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex -33.5 18 0
+    vertex -17.5 -18 0
+    vertex -33.5 -18 0
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex -33.5 18 0
+    vertex -17.5 18 0
+    vertex -17.5 -18 0
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex -33.5 18 22
+    vertex -33.5 -18 22
+    vertex -17.5 -18 22
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex -33.5 18 22
+    vertex -17.5 -18 22
+    vertex -17.5 18 22
+  endloop
+endfacet
+endsolid YAG_R0603

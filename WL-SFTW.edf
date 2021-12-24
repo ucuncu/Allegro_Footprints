@@ -1,0 +1,398 @@
+
+(EDIF
+  (rename WL_45_SFTW "WL-SFTW")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2018 08 16 03 08 41)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename WL_45_SFTW "WL-SFTW")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename WL_45_SFTW "WL-SFTW")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename VALUE "Value") (string "WL-SFTW"))
+          (port
+            (rename A "A")
+            (designator "1")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename BC "BC")
+            (designator "2")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename RC "RC")
+            (designator "3")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GC "GC")
+            (designator "4")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -48740 -40000) (pt 22952 40000)))
+            (portImplementation
+              (name A
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -30000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -36062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -48740 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -48740 0)
+                    (pt -30000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name BC
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 10000 -30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 -30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 22952 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 22952 -30000)
+                    (pt 10000 -30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name RC
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 10000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 22952 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 22952 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GC
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 10000 30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 22952 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 22952 30000)
+                    (pt 10000 30000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 16653 -35433) (pt 22559 -35433)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 10000) (pt -10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt -10000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -10000) (pt 10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt -10000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -20000) (pt -10000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -30000) (pt -10000 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -40000) (pt 10000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -30000) (pt -10000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 40000) (pt -10000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 30000) (pt -10000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 20000) (pt 10000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 30000) (pt -10000 40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 30000) (pt -30000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 30000) (pt -30000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 0) (pt -30000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -30000 -30000) (pt -10000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt -30000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt 10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -30000) (pt 10000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 30000) (pt 10000 30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 10000) (pt 10000 -10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -20000) (pt 10000 -40000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 40000) (pt 10000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 16653 -5511) (pt 22559 -5511)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 17047 25196) (pt 22952 25196)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -48740 -11299) (pt -42834 -11299)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -45708 -14330) (pt -45708 -8425)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -14559 46724))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -14574 -55165))
+              )
+            )
+            (annotate
+              (stringDisplay "G"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 2366 19326))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "R"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 2759 -11830))
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "B"
+                (display PARTBODY
+                  (justify LOWERLEFT)
+                  (orientation R0)
+                  (origin (pt 3153 -41377))
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "WL-SFTW_3528"))
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "1411 Würth Elektronik"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Wurth"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Good"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "150141M173100"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "0.39 USD"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Led, 1411, Rgb, 270mcd/950mcd/230mcd
+"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

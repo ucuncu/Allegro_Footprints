@@ -1,0 +1,8 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Mon Mar 12 10:27:23 2018
+\t (00:00:00)         Host=DESKTOP-PC User=Asis Pid=17028 CPUs=8
+\t (00:00:00) 
+\i (00:00:41) setwindow form.padedit
+\i (00:00:41) pse_new 
+\i (00:04:51) fillin "thru_pin.pad"
+\t (00:04:51)     Journal end - Mon Mar 12 10:32:14 2018

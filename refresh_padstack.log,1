@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : bga684c80p28x28_TMS320DM814x.dra              )
+(    Software Version : 16.5S010                                      )
+(    Date/Time        : Thu Dec 12 10:23:57 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Thu Dec 12 10:23:57 2013				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'E:/Devre/LIB/ALLEGRO_LIB/ipc2_symbols/bga684c80p28x28_TMS320DM814x.dra'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.5/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.5/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'C42'  pad stack refresh starting.
+
+     'C42'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.
