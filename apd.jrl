@@ -1,102 +1,26 @@
-\t (00:00:02) apd 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Thu Dec 16 16:14:26 2021
-\t (00:00:02)         Host=HAMIT-PC User=Hamit Pid=5992 CPUs=8
-\t (00:00:02) CmdLine= C:\Cadence\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:02) Opening existing design...
-\d (00:00:02) Design opened: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/XCVR_NRF9160-1.dra
-\i (00:00:02) trapsize 6352
-\i (00:00:02) trapsize 6638
-\i (00:00:02) trapsize 6638
-\i (00:00:03) trapsize 6746
-\i (00:00:03) generaledit 
-\i (00:00:04) roam y 96 
-\i (00:00:05) new 
-\i (00:00:23) newdrawfillin "hh1515-kutu.dra" "Mechanical Symbol"
-\t (00:00:23) Starting new design...
-\i (00:00:23) trapsize 5045
-\i (00:00:23) trapsize 5168
-\i (00:00:23) trapsize 6746
-\i (00:00:23) trapsize 6746
-\i (00:00:24) set_default_layers 
-\i (00:00:24) generaledit 
-\i (00:00:55) dxf in 
-\i (00:00:57) setwindow form.dxfInMain
-\i (00:00:57) FORM dxfInMain browsedxf  
-\i (00:01:05) fillin "C:\Users\Hamit\Desktop\HH-1515-0-0.DXF"
-   (00:01:05) Loading mfg.cxt 
-\i (00:01:11) FORM dxfInMain texttable YES 
-\i (00:01:11) FORM dxfInMain incremental YES 
-\i (00:01:12) FORM dxfInMain fillshapes YES 
-\i (00:01:18) FORM dxfInMain editcnvprofile  
-\i (00:01:30) setwindow form.dxfInMapping
-\i (00:01:30) FORM dxfInMapping selectall YES 
-\i (00:01:52) FORM dxfInMapping classenum COMPONENT GEOMETRY 
-\i (00:01:54) FORM dxfInMapping usesubclassname YES 
-\i (00:01:57) FORM dxfInMapping map  
-\i (00:02:04) FORM dxfInMapping usesubclassname NO 
-\i (00:02:06) FORM dxfInMapping mappinggrid cell 1,4 
-\i (00:02:16) FORM dxfInMapping mappinggrid change 1,4 DISPLAY_TOP 
-\i (00:02:17) FORM dxfInMapping mappinggrid cell 2,4 
-\i (00:02:19) FORM dxfInMapping mappinggrid change 2,4 DISPLAY_TOP 
-\i (00:02:19) FORM dxfInMapping mappinggrid cell 3,4 
-\i (00:02:21) FORM dxfInMapping mappinggrid change 3,4 DISPLAY_TOP 
-\i (00:02:22) FORM dxfInMapping mappinggrid cell 4,4 
-\i (00:02:22) FORM dxfInMapping mappinggrid change 4,4 DISPLAY_TOP 
-\i (00:02:23) FORM dxfInMapping mappinggrid cell 5,4 
-\i (00:02:24) FORM dxfInMapping mappinggrid change 5,4 DISPLAY_TOP 
-\i (00:02:25) FORM dxfInMapping mappinggrid cell 6,4 
-\i (00:02:26) FORM dxfInMapping mappinggrid change 6,4 DISPLAY_TOP 
-\i (00:02:26) FORM dxfInMapping mappinggrid cell 7,4 
-\i (00:02:27) FORM dxfInMapping mappinggrid change 7,4 DISPLAY_TOP 
-\i (00:02:33) FORM dxfInMapping done  
-\i (00:02:36) setwindow form.dxfInMain
-\i (00:02:36) FORM dxfInMain import  
-\t (00:02:36) Starting dxf2a...
-\t (00:02:37) Opening existing design...
-\i (00:02:37) setwindow pcb
-\i (00:02:37) trapsize 6746
-\i (00:02:38) generaledit 
-\i (00:02:39) roam y -96 
-\i (00:02:39) roam y -96
-\i (00:02:41) roam y -96 
-\i (00:02:41) roam y -96
-\i (00:02:41) roam y -96 
-\i (00:02:41) roam y -96
-\i (00:02:41) roam y -96 
-\i (00:02:41) roam y -96
-\i (00:02:42) zoom out 
-\i (00:02:42) setwindow pcb
-\i (00:02:42) zoom out 39.7424 63.0189
-\i (00:02:42) trapsize 13491
-\i (00:02:42) roam y -96 
-\i (00:02:42) roam y -96
-\i (00:02:42) roam y -96 
-\i (00:02:42) roam y -96
-\i (00:02:43) roam y -96 
-\i (00:02:43) roam y -96
-\i (00:02:43) roam y -96 
-\i (00:02:43) roam y -96
-\i (00:02:45) roam y -96 
-\i (00:02:45) roam y -80
-\i (00:02:45) roam y -96 
-\i (00:02:47) setwindow form.dxfInMain
-\i (00:02:47) FORM dxfInMain cancel  
-\i (00:02:47) setwindow pcb
-\i (00:02:47) generaledit 
-\i (00:02:48) roam y -96 
-\i (00:02:50) zoom out 
-\i (00:02:50) setwindow pcb
-\i (00:02:50) zoom out 136.2049 188.0829
-\i (00:02:50) trapsize 22264
-\i (00:02:50) roam y -96 
-\i (00:02:51) roam y -96 
-\i (00:02:51) roam y -96 
-\i (00:02:54) roam y -96 
-\i (00:02:54) roam y -96 
-\i (00:03:48) save 
-\t (00:03:49) Symbol 'hh1515-kutu.bsm' created.
-\i (00:03:49) generaledit 
-\i (00:03:52) exit 
-\t (00:03:52)     Journal end - Thu Dec 16 16:18:16 2021
+\t (00:00:04) apd 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Mar 31 15:44:11 2022
+\t (00:00:04)         Host=HAMIT-PC User=Hamit Pid=12056 CPUs=8
+\t (00:00:04) CmdLine= C:\Cadence\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/joycar_inside_cutout.dra
+\i (00:00:07) trapsize 569
+\i (00:00:07) trapsize 582
+\i (00:00:07) trapsize 614
+\i (00:00:07) trapsize 659
+\i (00:00:08) generaledit 
+\i (00:00:09) new 
+\i (00:00:37) newdrawfillin "jycar_slot.dra" "Shape Symbol"
+\t (00:00:37) Starting new design...
+\i (00:00:37) trapsize 716306
+\i (00:00:37) trapsize 733826
+\i (00:00:37) trapsize 1413331
+\i (00:00:37) trapsize 1413331
+\i (00:00:37) set_default_layers 
+\i (00:00:37) generaledit 
+\i (00:00:47) exit 
+\e (00:00:47) Do you want to save the changes you made to jycar_slot.dra?
+\i (00:00:48) fillin no 
+\t (00:00:48)     Journal end - Thu Mar 31 15:44:55 2022

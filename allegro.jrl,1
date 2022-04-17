@@ -1,23 +1,27 @@
 \t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Thu Dec 16 16:02:10 2021
-\t (00:00:00)         Host=HAMIT-PC User=Hamit Pid=13004 CPUs=8
-\t (00:00:00) CmdLine= c:\cadence\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Cadence\Cadence\Cadence_SPB_17.2-2016\share\pcb\pcb_lib\symbols\XCVR_NRF9160.dra
+\t (00:00:00)     Journal start - Mon Mar 28 18:32:14 2022
+\t (00:00:00)         Host=HAMIT-PC User=Hamit Pid=3392 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Cadence\Cadence\Cadence_SPB_17.2-2016\share\pcb\pcb_lib\symbols\JQC3FT731Z12VDC.dra
 \t (00:00:00) 
    (00:00:00) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:05) fillin yes 
-\d (00:00:05) Design opened: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/XCVR_NRF9160.dra
-\i (00:00:06) trapsize 4881
-\i (00:00:06) trapsize 4992
-\i (00:00:06) trapsize 6638
-\i (00:00:06) trapsize 6856
-\i (00:00:06) generaledit 
-\i (00:00:10) prepopup -14.0734 45.3561
-\i (00:00:11) pick grid -23.5352 36.0315
-\t (00:00:11) last pick:  -22.8600 35.5600
-\i (00:00:15) save_as 
-\i (00:00:20) fillin "XCVR_NRF9160-1.dra"
-\t (00:00:20) Symbol 'xcvr_nrf9160-1.psm' created.
-\i (00:00:20) generaledit 
-\i (00:00:22) exit 
-\t (00:00:22)     Journal end - Thu Dec 16 16:02:33 2021
+\t (00:00:03) Opening existing design...
+\d (00:00:04) Design opened: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/JQC3FT731Z12VDC.dra
+\i (00:00:04) trapsize 1457
+\i (00:00:04) trapsize 1490
+\i (00:00:04) trapsize 1787
+\i (00:00:04) trapsize 1946
+\i (00:00:04) generaledit 
+\i (00:00:05) roam y -96 
+\i (00:00:05) roam y -96
+\i (00:00:05) roam y -96 
+\i (00:00:05) roam y -96
+\i (00:00:05) roam y -96 
+\i (00:00:05) roam y -96
+\i (00:00:05) roam y -96 
+\i (00:00:05) roam y -96
+\i (00:00:06) roam y 96 
+\i (00:00:06) roam y 96
+\i (00:00:06) roam y 96 
+\i (00:00:06) roam y 96
+\i (00:03:21) exit 
+\t (00:03:21)     Journal end - Mon Mar 28 18:35:35 2022

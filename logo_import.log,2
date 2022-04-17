@@ -2,15 +2,15 @@
 (                                                                     )
 (    Logo Import Log File                                             )
 (                                                                     )
-(    Drawing          : EPTS_LOGO.dra                                 )
+(    Drawing          : meto_bmp.dra                                  )
 (    Software Version : 17.2P028                                      )
-(    Date/Time        : Fri Feb 21 23:03:38 2020                      )
+(    Date/Time        : Wed Mar 30 04:23:56 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Logo File: C:/Users/Hamit/Desktop/EPTS/EPTS _logo_bmp_low.bmp
-Logo to be added on:  REF DES/SILKSCREEN_TOP
+Logo File: C:/Users/Hamit/Desktop/eagle.bmp
+Logo to be added on:  SUBSTRATE GEOMETRY/SILKSCREEN_TOP
 
 Error: Converting BMP file to DXF file.
 

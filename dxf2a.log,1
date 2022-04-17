@@ -4,26 +4,20 @@ NOTE: Replacing illegal character * with X in *Model_Space.
 NOTE: Replacing illegal character * with X in *Paper_Space.
 NOTE: Replacing illegal character * with X in *Paper_Space0.
 done.
-WARNING: DXF Elements are outside the design extents.
-Incresing the extents to accomodate these entities.
-DXF entities may be out of their desired positions.
-WARNING: DXF Elements are outside the design extents.
-Incresing the extents to accomodate these entities.
-DXF entities may be out of their desired positions.
-WARNING: DXF Elements are outside the design extents.
-Incresing the extents to accomodate these entities.
-DXF entities may be out of their desired positions.
-NOTE: Ignoring unsupported element HATCH on line 7330.
-NOTE: Ignoring unsupported element SPLINE on line 2202.
-NOTE: Ignoring unsupported element SPLINE on line 2370.
-NOTE: Ignoring unsupported element HATCH on line 3042.
-NOTE: Ignoring unsupported element SPLINE on line 3832.
-NOTE: Ignoring unsupported element HATCH on line 4720.
-NOTE: Ignoring unsupported element SPLINE on line 5450.
-NOTE: Ignoring unsupported element HATCH on line 6458.
-Layer conversion file: C:/Users/Hamit/Desktop/Logo_V2_turuncu_l.cnv
-DXF file: C:/Users/Hamit/Desktop/Logo_V2_turuncu.dxf
-MCM file: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/#Taaaaaf12956.dra
+NOTE: Ignoring unsupported element SPLINE on line 7846.
+NOTE: Ignoring unsupported element SPLINE on line 7944.
+NOTE: Ignoring unsupported element SPLINE on line 1596.
+NOTE: Ignoring unsupported element SPLINE on line 5750.
+NOTE: Ignoring unsupported element SPLINE on line 6040.
+NOTE: Ignoring unsupported element SPLINE on line 6474.
+NOTE: Ignoring unsupported element SPLINE on line 6668.
+NOTE: Ignoring unsupported element SPLINE on line 6910.
+NOTE: Ignoring unsupported element SPLINE on line 7344.
+NOTE: Ignoring unsupported element SPLINE on line 7538.
+NOTE: Ignoring unsupported element HATCH on line 8062.
+Layer conversion file: C:/Users/Hamit/Desktop/wolf_l.cnv
+DXF file: C:/Users/Hamit/Desktop/wolf.dxf
+MCM file: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/#Taaaaaa14440.dra
 Update existing design?: YES
 Use default text?: YES
 DXF units: MILLIMETERS

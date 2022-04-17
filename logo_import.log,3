@@ -2,14 +2,14 @@
 (                                                                     )
 (    Logo Import Log File                                             )
 (                                                                     )
-(    Drawing          : logo_sports.dra                               )
+(    Drawing          : eagle.dra                                     )
 (    Software Version : 17.2P028                                      )
-(    Date/Time        : Sat Feb 22 01:17:55 2020                      )
+(    Date/Time        : Wed Mar 30 04:26:03 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Logo File: C:/Users/Hamit/Desktop/logo_resized_bmp.bmp
+Logo File: C:/Users/Hamit/Desktop/eagle.bmp
 Logo to be added on:  SUBSTRATE GEOMETRY/SILKSCREEN_TOP
 
 Error: Converting BMP file to DXF file.

@@ -1,1 +1,1 @@
-hh1515-kutu.dra
+joycar_inside_cutout.dra

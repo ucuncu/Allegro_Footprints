@@ -1,0 +1,2211 @@
+
+(EDIF
+  (rename RASPBERRY_PI_3_MODEL_B_43_ "RASPBERRY_PI_3_MODEL_B+")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2021 01 18 01 43 07)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename RASPBERRY_PI_3_MODEL_B_43_ "RASPBERRY_PI_3_MODEL_B+")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename RASPBERRY_PI_3_MODEL_B_43_ "RASPBERRY_PI_3_MODEL_B+")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename VALUE "Value") (string "RASPBERRY_PI_3_MODEL_B+"))
+          (port
+            (rename &3V3 "3V3")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &5V0 "5V0")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO2_47_SDA1 "GPIO2/SDA1")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "3")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &5V0__1 "5V0")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (designator "4")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO3_47_SCL1 "GPIO3/SCL1")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "5")
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "6")
+            (property
+              (rename ORDER "Order")
+              (integer 5)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO4_47_GPIO_GCKL "GPIO4/GPIO_GCKL")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "7")
+            (property
+              (rename ORDER "Order")
+              (integer 6)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename TXD0_47_GPIO14 "TXD0/GPIO14")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "8")
+            (property
+              (rename ORDER "Order")
+              (integer 7)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND__1 "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "9")
+            (property
+              (rename ORDER "Order")
+              (integer 8)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename RXD0_47_GPIO15 "RXD0/GPIO15")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "10")
+            (property
+              (rename ORDER "Order")
+              (integer 9)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO17_47_GPIO_GEN0 "GPIO17/GPIO_GEN0")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "11")
+            (property
+              (rename ORDER "Order")
+              (integer 10)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO18_47_GPIO_GEN1 "GPIO18/GPIO_GEN1")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "12")
+            (property
+              (rename ORDER "Order")
+              (integer 11)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO27_47_GPIO_GEN2 "GPIO27/GPIO_GEN2")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "13")
+            (property
+              (rename ORDER "Order")
+              (integer 12)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND__2 "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "14")
+            (property
+              (rename ORDER "Order")
+              (integer 13)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO22_47_GPIO_GEN3 "GPIO22/GPIO_GEN3")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "15")
+            (property
+              (rename ORDER "Order")
+              (integer 14)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO23_47_GPIO_GEN4 "GPIO23/GPIO_GEN4")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "16")
+            (property
+              (rename ORDER "Order")
+              (integer 15)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &3V3__1 "3V3")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "power")
+              (owner "Schematic_TSC")
+            )
+            (designator "17")
+            (property
+              (rename ORDER "Order")
+              (integer 16)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO24_47_GPIO_GEN5 "GPIO24/GPIO_GEN5")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "18")
+            (property
+              (rename ORDER "Order")
+              (integer 17)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO10_47_SPI_MOSI "GPIO10/SPI_MOSI")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "19")
+            (property
+              (rename ORDER "Order")
+              (integer 18)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND__3 "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "20")
+            (property
+              (rename ORDER "Order")
+              (integer 19)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO9_47_SPI_MISO "GPIO9/SPI_MISO")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "21")
+            (property
+              (rename ORDER "Order")
+              (integer 20)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO25_47_GPIO_GEN6 "GPIO25/GPIO_GEN6")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "22")
+            (property
+              (rename ORDER "Order")
+              (integer 21)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO11_47_SPI_SCLK "GPIO11/SPI_SCLK")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "23")
+            (property
+              (rename ORDER "Order")
+              (integer 22)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO8_47__33_SPI_CE0_33_ "GPIO8/!SPI_CE0!")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "24")
+            (property
+              (rename ORDER "Order")
+              (integer 23)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND__4 "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "25")
+            (property
+              (rename ORDER "Order")
+              (integer 24)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO7_47__33_SPI_CE1_33_ "GPIO7/!SPI_CE1!")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "26")
+            (property
+              (rename ORDER "Order")
+              (integer 25)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename ID_SD "ID_SD")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "27")
+            (property
+              (rename ORDER "Order")
+              (integer 26)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename ID_SC "ID_SC")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "28")
+            (property
+              (rename ORDER "Order")
+              (integer 27)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO5 "GPIO5")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "29")
+            (property
+              (rename ORDER "Order")
+              (integer 28)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND__5 "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "30")
+            (property
+              (rename ORDER "Order")
+              (integer 29)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO6 "GPIO6")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "31")
+            (property
+              (rename ORDER "Order")
+              (integer 30)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO12 "GPIO12")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "32")
+            (property
+              (rename ORDER "Order")
+              (integer 31)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO13 "GPIO13")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "33")
+            (property
+              (rename ORDER "Order")
+              (integer 32)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND__6 "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "34")
+            (property
+              (rename ORDER "Order")
+              (integer 33)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO19 "GPIO19")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "35")
+            (property
+              (rename ORDER "Order")
+              (integer 34)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO16 "GPIO16")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "36")
+            (property
+              (rename ORDER "Order")
+              (integer 35)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO26 "GPIO26")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "37")
+            (property
+              (rename ORDER "Order")
+              (integer 36)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO20 "GPIO20")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "38")
+            (property
+              (rename ORDER "Order")
+              (integer 37)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GND__7 "GND")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "39")
+            (property
+              (rename ORDER "Order")
+              (integer 38)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename GPIO21 "GPIO21")
+            (direction INOUT)
+            (property
+              (rename TYPE "Type")
+              (string "IO")
+            )
+            (designator "40")
+            (property
+              (rename ORDER "Order")
+              (integer 39)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD "SHIELD")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "S1")
+            (property
+              (rename ORDER "Order")
+              (integer 40)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD__1 "SHIELD")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "S2")
+            (property
+              (rename ORDER "Order")
+              (integer 41)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD__2 "SHIELD")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "S3")
+            (property
+              (rename ORDER "Order")
+              (integer 42)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename SHIELD__3 "SHIELD")
+            (property
+              (rename TYPE "Type")
+              (string "POWER")
+            )
+            (property PORTTYPE
+              (string "supply")
+              (owner "Schematic_TSC")
+            )
+            (property SUPPLYTYPE
+              (string "railGround")
+              (owner "Schematic_TSC")
+            )
+            (designator "S4")
+            (property
+              (rename ORDER "Order")
+              (integer 43)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -110000 -250000) (pt 100000 100000)))
+            (portImplementation
+              (name &5V0
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 90000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 90000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 90000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 90000)
+                    (pt 80000 90000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &3V3
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 70000)
+                    (pt 80000 70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO2_47_SDA1
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 80000)
+                    (pt -90000 80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO3_47_SCL1
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 70000)
+                    (pt -90000 70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO4_47_GPIO_GCKL
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 60000)
+                    (pt -90000 60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name TXD0_47_GPIO14
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 40000)
+                    (pt 80000 40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -180000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -180000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -180000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -180000)
+                    (pt 80000 -180000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name RXD0_47_GPIO15
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 30000)
+                    (pt 80000 30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO17_47_GPIO_GEN0
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 40000)
+                    (pt -90000 40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO18_47_GPIO_GEN1
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 20000)
+                    (pt -90000 20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO27_47_GPIO_GEN2
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 30000)
+                    (pt -90000 30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO22_47_GPIO_GEN3
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 10000)
+                    (pt -90000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO23_47_GPIO_GEN4
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 0)
+                    (pt -90000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO24_47_GPIO_GEN5
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -10000)
+                    (pt -90000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO10_47_SPI_MOSI
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -70000)
+                    (pt -90000 -70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO9_47_SPI_MISO
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -80000)
+                    (pt -90000 -80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO25_47_GPIO_GEN6
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -20000)
+                    (pt -90000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO11_47_SPI_SCLK
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -60000)
+                    (pt -90000 -60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO8_47__33_SPI_CE0_33_
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -40000)
+                    (pt -90000 -40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO7_47__33_SPI_CE1_33_
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -50000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -50000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -50000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -50000)
+                    (pt -90000 -50000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name ID_SD
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -100000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -100000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -100000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -100000)
+                    (pt -90000 -100000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name ID_SC
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -90000 -110000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -106062 -110000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -110000 -110000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -110000 -110000)
+                    (pt -90000 -110000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO5
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -10000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -10000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -10000)
+                    (pt 80000 -10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO6
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -20000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -20000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -20000)
+                    (pt 80000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO12
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -30000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -30000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -30000)
+                    (pt 80000 -30000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO13
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -40000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -40000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -40000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -40000)
+                    (pt 80000 -40000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO19
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -60000)
+                    (pt 80000 -60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO16
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -50000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -50000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -50000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -50000)
+                    (pt 80000 -50000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO26
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -90000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -90000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -90000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -90000)
+                    (pt 80000 -90000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO20
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -70000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -70000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -70000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -70000)
+                    (pt 80000 -70000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GPIO21
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -80000)
+                    (pt 80000 -80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -140000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -140000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -140000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -140000)
+                    (pt 80000 -140000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &5V0__1
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 80000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 80000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 80000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 80000)
+                    (pt 80000 80000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &3V3__1
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 60000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 60000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 60000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 60000)
+                    (pt 80000 60000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD__1
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -150000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -150000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -150000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -150000)
+                    (pt 80000 -150000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD__2
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -160000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -160000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -160000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -160000)
+                    (pt 80000 -160000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name SHIELD__3
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -170000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -170000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -170000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -170000)
+                    (pt 80000 -170000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND__1
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -190000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -190000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -190000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -190000)
+                    (pt 80000 -190000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND__2
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -200000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -200000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -200000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -200000)
+                    (pt 80000 -200000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND__3
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -210000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -210000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -210000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -210000)
+                    (pt 80000 -210000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND__4
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -220000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -220000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -220000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -220000)
+                    (pt 80000 -220000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND__5
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -230000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -230000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -230000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -230000)
+                    (pt 80000 -230000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND__6
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -240000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -240000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -240000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -240000)
+                    (pt 80000 -240000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name GND__7
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 80000 -250000))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 96062 -250000))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 100000 -250000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 100000 -250000)
+                    (pt 80000 -250000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -90000 100000) (pt 80000 100000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 80000 100000) (pt 80000 -260000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 80000 -260000) (pt -90000 -260000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -90000 -260000) (pt -90000 100000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -90000 110000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -90000 -267499))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "MODULE_RASPBERRY_PI_3_MODEL"))
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "RASPBERRY PI 3 MODEL B+"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Unavailable"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Raspberry Pi"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay " Raspberry Pi"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+BCM2837B0 Raspberry Pi 3 Model B+ - ARM® Cortex®-A53, VideoCore MPU Embedded Evaluation Board
+"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+          )
+        )
+      )
+    )
+  )
+)
